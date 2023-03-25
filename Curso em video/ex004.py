@@ -1,0 +1,8 @@
+x = input('Digita algo aí pro seu pai vai: ')
+print('O type do que cê digitou aí é {}'.format(type(x)))
+print('Só tem espaços? ', x.isspace())
+print('É um número? ', x.isnumeric())
+print('É alfabético? ', x.isalpha())
+print('Está em maiúsculas? ', x.isupper())
+print('Está em minúsculas? ', x.islower())
+print('Está capitalizada? ', x.istitle())

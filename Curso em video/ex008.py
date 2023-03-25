@@ -1,0 +1,2 @@
+x = int(input('Digite uma distância em metros: '))
+print('{:.1f}m é equivalente a:\n{}km\n{}hm\n{}dam\n{}dm\n{}cm\n{}mm\n' .format(x, (x/(10**3)), (x/(10**2)), (x/(10**1)), (x*(10**1)), (x*(10**2)), (x*(10**3))))
